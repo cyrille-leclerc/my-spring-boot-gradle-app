@@ -42,7 +42,7 @@ publishing {
     }
     repositories {
         maven {
-            url "https://nexus.beescloud.com/content/repositories/snapshots"
+            url "https://nexus.beescloud.com/repository/maven-snapshots/"
             credentials {
                 username "$mavenRepositoryUserName"
                 password "$mavenRepositoryPassword"
